@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Header{
+    background-color: #232528;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Footer{
+    background-color: #232528;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.About{
+    background-color: #F0F0F0;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contact{
+    background-color: #F0F0F0;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Nav{
+    background-color: #232528;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.Minecraft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000000;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
