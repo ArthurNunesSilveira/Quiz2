@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/contact.css">
+</head>
+<body>
+    <header class="Header">
+        <h1>Contato</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+    <main>
+        <form action="/submit_contact" method="post" class="Form">
+            <section class="Nome">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </section>
+            <section class="Email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </section>
+            <section class="Mensagem">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required class="textarea"></textarea>
+            </section>
+            <button type="submit" class="Enviar">Enviar</button>
+        </form>
+    </main>
+    <footer class="Footer">
+        <p>&copy; 2025 </p>
+    </footer>
+</body>
+</html>
